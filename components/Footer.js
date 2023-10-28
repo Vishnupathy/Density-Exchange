@@ -25,35 +25,7 @@ const Footer = () => {
       alt="Logo"
       style={{cursor:'pointer'}}
     />
-    <h1 className='font-bold text-3xl text-[#6B4DEE] '>ahead</h1>
-
-    <div className='flex justify-center items-center my-4 flex-col md:flex-row'>
-    <div className='flex  text-sm font-semibold items-center justify-center cursor-pointer'>
-    <Image
-      src='/assets/location.svg'
-      width={30}
-      height={30}
-      alt="location"
-      className='mr-2'
-    />
-        Augustraβe 26, 10117 Berlin
-        </div>
-        <div className='flex text-sm font-semibold items-center justify-center ml-12 cursor-pointer'>
-        <Image
-      src='/assets/mail.svg'
-      width={30}
-      height={30}
-      alt="mail"
-            className='mr-2'
-
-    />
-        hi@ahead-app.com
-    </div>
-    </div>
-    <AppleStore/>
-    <p className='flex text-sm font-semibold my-4 text-[#535353]'>&copy; 2022 Ahead app.All rights reserved</p>
-      </div>
-
+   
     </motion.section>
   )
 }
